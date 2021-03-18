@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: white;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 0 16px 5px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.logo {
+    margin-top: 6px;
+    height: 29px;
+    width: 103px;
+}
+
+.stories {
+    display: flex;
+    padding: 10px 8px;
+    overflow-x: scroll;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.white-ring { 
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.story-icon {
+    padding: 2px;
+    display: flex;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2355 75%, #bc1888 100%);
+    border-radius: 50%;
+}
+
+.story-icon img {
+    border-radius: 50%;
+    height: 56px;
+}
+
+.story p{
+    font-size: 12px;
+    color: #262626;
+}
+
+.post { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post .profile {
+    width: 100%;
+}
+
+.post header {
+    margin: 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.post-username {
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+.post-username img {
+    border-radius: 50%;
+    height: 32px;
+}
+
+.post-username p {
+    margin-left: 10px;
+}
+
+.interect-bar { 
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px;
+}
+
+.interect-bar svg {
+    padding: 8px;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.like {
+    display: flex;
+}
+
+.like img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.comment {
+    display: flex;
+}
+
+.all-comments {
+    color: #8e8e8e
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+    left: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #dbdbdb;
+}
+
+
+
+
+
+
+
+
+
+
